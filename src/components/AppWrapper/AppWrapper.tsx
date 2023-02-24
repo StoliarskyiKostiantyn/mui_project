@@ -38,7 +38,7 @@ export const AppWrapper = ({children}: Props) => {
           domain="dev-1kbyy0s8udzfuzc3.us.auth0.com"
           clientId="6pjbypRB8YJ03WjiAEkVTXfHpDFzSjEx"
           authorizationParams={{
-            redirect_uri: 'https://kostiasite.netlify.app/profile/dashboard',
+            redirect_uri: 'https://kostiasite.netlify.app/dashboard',
           }}>
           <BrowserRouter>{children}</BrowserRouter>
         </Auth0Provider>
