@@ -1,5 +1,3 @@
-import {LoginButton} from '../components/buttons/LoginButton';
-
 export const Login = () => {
   return (
     <>
