@@ -2,7 +2,9 @@ import axios from 'axios';
 import {useEffect} from 'react';
 
 async function fetchMovie() {
-  const response = await axios(`http://www.wangchenga.cn/xcx/?id=AKSJ00002471`);
+  const response = await axios(
+    `https://www.wangchenga.cn/xcx/?id=AKSJ00002471`,
+  );
   console.log(response);
 }
 
